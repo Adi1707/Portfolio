@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    background-color: rgb(212, 204, 193)
+}
+.content{
+    color: rgb(211, 163, 92);
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content h1{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.content h2{
+    position: absolute;
+    top:200px;
+    left:120px;
+    font-size: 30px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.abtbox{
+    background-color: rgba(222, 184, 135, 0.37);;
+    color: rgb(85, 24, 24);
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+#box1{
+    background-color: rgb(138, 118, 91);
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    top:100px;
+    left: 300px;
+}
+
+
+
+.skillbox{
+    background-color: rgba(222, 184, 135, 0.377);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 300px;
+    top:100px;
+}
+.skillb{
+    background-color: rgba(222, 184, 135, 0.363);
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 600px;
+    bottom:350px;
+    font-size: 20px;
+    font-family: 'Kaisei Tokumin', serif;
+}
+footer{
+    color: rgb(85, 24, 24);
+    font-size: 30px;
+    padding-left: 50px;
+    position: relative;
+    bottom: 250px;    
+}
+.foot{
+    background-color: rgba(222, 184, 135, 0.363);
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    position: relative;
+    bottom: 200px;
+    left: 450px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+a{
+    padding-left: 20px;
+    padding-right: 60px;
+    text-decoration: none;
+    color: rgb(85, 24, 24);
+}
+
+.signature{
+    position: fixed;
+    font-size: 25px;
+}
